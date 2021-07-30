@@ -1,0 +1,34 @@
+body{
+  font-family: Montserrat;
+   text-align: center;
+   background-color: #ffe6e6;
+   padding: 0;
+   margin:0;
+}
+
+h1
+{
+  font-family: Sacramento;
+  font-size: 80px;
+  color:#fe346e;
+  padding-top:0;
+  margin-top:0;
+  padding-bottom:0;
+  margin-bottom:0;
+
+}
+h2{
+  font-family:Langar;
+  color:#ea9abb;
+  padding-top: 0;
+  margin-top: 0;
+}
+.balloon1{
+  display: block;
+  float: right;
+
+}
+.balloon2{
+  display: block;
+  float: right;
+}

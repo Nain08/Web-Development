@@ -1,0 +1,31 @@
+/*******************TAG SELECTORS*********************/
+h1{
+  color: red;
+  font-size: 200px;
+}
+img:hover{
+  background-color: gold;/*hover is a pseudo class which changes the background color
+  to gold when mouse is pointing ont the image*/
+}
+/*******************CLASS SELECTORS*********************/
+.bacon{
+  background-color: green;
+}
+.broccoli
+{
+  background-color: red;
+}
+.circular{
+  border-radius: 100%
+}
+/*******************ID SELECTORS*********************/
+#heading
+{
+  color: blue;
+}
+/*Inline css has the highest priority
+Internal css has priority in between inline and external
+External css has least priority*/
+/*ID selectors and tag selectors have priority greater than tag selectors*/
+/*ID is unique but classes can be same*/
+/*any html element can have more than one class but only 1 id*/

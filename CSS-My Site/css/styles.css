@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family:'Merriweather'; /*if helvetica is not present then verdana is going
+   to be your font.....this is called fallback*/
+  font-size: 20px;
+  color: #40514e
+}
+h1{
+  color:#66BFBF;
+  margin: 50px auto 0;
+  font-family: Sacramento;
+  font-size: 5.625rem; /*16px=100%=1em ...90px/16px=5.625 rem or em...also em is dynamically sized and inherited
+  from its parent suppose if i apply 2em as font size in body the total font size
+  will be the the 5em the font size applied to h1+2em applied to body*/
+  /*rem is a root em which ignores the parent font size applied*/
+}
+h2{
+  color:#66BFBF;
+  font-family: Montserrat;
+  font-size:2.5rem ;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color:#11999E;
+  font-family: Montserrat;
+}
+.top-container{
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  padding: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.pro{
+  text-decoration: underline;
+}
+a{
+  color:#11999E;
+  font-family: 'Montserrat';
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#eaf6f6;
+
+}
+.copyright{
+  color:#eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.top-cloud
+{
+  position: absolute;
+  right:300px;
+  top:30px;
+}
+.bottom-cloud{
+  position:absolute;
+  left:250px;
+  bottom:300px;
+}
+.dp{
+  width:300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.painting{
+  border-radius: 100%;
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+.cooking{
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+  width:35%;
+}
+/*.paint-desc{
+  clear: left;
+}
+float is for wrapping around the text
+clear is for not wrapping around the text if we do not eant all text to be wrapped
+.cook-desc{
+  clear: right;
+}*/
+p{
+  line-height: 2;
+}
+.skill-row
+{
+  text-align: left;
+  width:50%;
+  margin:100px auto;
+}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: #eaf6f6;
+  border-width: 5px;
+  width:4%;
+  margin:100px auto;
+}
+.intro{
+  width:20%;
+  margin: auto;
+}
+.contact-message
+{
+  width:40%;
+  margin:40px auto 60px;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat';
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 0;
+   -moz-box-shadow: 0;
+   box-shadow: 0;
+   text-shadow: 0;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
